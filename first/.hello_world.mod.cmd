@@ -1,0 +1,1 @@
+cmd_/home/vboxuser/Documents/tcc/first/hello_world.mod := printf '%s\n'   hello_world.o | awk '!x[$$0]++ { print("/home/vboxuser/Documents/tcc/first/"$$0) }' > /home/vboxuser/Documents/tcc/first/hello_world.mod

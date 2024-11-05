@@ -1,0 +1,1 @@
+cmd_/home/vboxuser/Documents/tcc/first/Module.symvers :=  sed 's/ko$$/o/'  /home/vboxuser/Documents/tcc/first/modules.order | scripts/mod/modpost -m      -o /home/vboxuser/Documents/tcc/first/Module.symvers -e -i Module.symvers -T - 
