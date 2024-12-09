@@ -1,1 +1,0 @@
-cmd_/home/vboxuser/Documents/tcc/first/hello_world.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/x86/module.lds -o /home/vboxuser/Documents/tcc/first/hello_world.ko /home/vboxuser/Documents/tcc/first/hello_world.o /home/vboxuser/Documents/tcc/first/hello_world.mod.o;  true
