@@ -117,3 +117,5 @@ Baseado no artigo:
 
 **An Entropy Source based on the Bluetooth Received Signal Strength Indicator**  
 _Alexandre Giron, Ricardo Custódio_
+
+https://sol.sbc.org.br/index.php/sbseg/article/view/19231
