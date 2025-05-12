@@ -4,6 +4,14 @@ Este projeto implementa um serviço de entropia baseado em RSSI via Bluetooth, u
 
 ---
 
+## Arquitetura
+
+O Raspberry Pi é utilizado como servidor, hospedando os serviços de Scanner, API e o buffer de entropia.
+O Scanner coleta os valores de RSSI dos dispositivos Bluetooth próximos, processa esses dados e armazena os bits resultantes no buffer.
+A API disponibiliza endpoints HTTP que, quando acionados, acessam os dados armazenados no buffer e os retornam ao requisitante via requisição web. 
+
+![Alt text](https://github.com/eduardogmarchesan/bluerandomLinux/blob/webServer/Images/Arquitetura.png)
+
 ## Requisitos
 
 - Python 3.9+
