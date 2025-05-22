@@ -111,7 +111,7 @@ Exemplo de resposta:
 ```
 
 
-## 🧠 Observações
+## Observações
 
 - O sistema utiliza um buffer de bits auxiliar para maximizar o aproveitamento da entropia mesmo em ciclos curtos com poucas leituras.
 - O buffer é gerenciado com tamanho máximo definido (1 GB por padrão).
@@ -119,7 +119,7 @@ Exemplo de resposta:
 
 ---
 
-## 📚 Referência
+## Referência
 
 Baseado no artigo:
 
