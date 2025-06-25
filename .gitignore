@@ -1,0 +1,3 @@
+venv/
+scanner/entropy_buffer.bin
+API/__pycache__/
