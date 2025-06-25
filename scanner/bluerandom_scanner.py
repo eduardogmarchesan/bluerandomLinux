@@ -70,7 +70,7 @@ def main():
     global bit_buffer
 
     while True:
-        rssi_vals = get_rssi_values(scan_time=3)
+        rssi_vals = get_rssi_values(scan_time= 0.1)
         bits = odd_or_even_extractor(rssi_vals)
         bit_buffer.extend(bits)
 
@@ -82,7 +82,7 @@ def main():
         if byte_array:
             save_entropy(byte_array)
 
-        time.sleep(1)
+        #time.sleep(1)
 
 if __name__ == "__main__":
     main()
